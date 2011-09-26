@@ -19,7 +19,7 @@ Number.prototype.fixed = function(precision) {
   return Math.round(this * power) / power;
 }
 
-/* Mean
+/* Mean (Average)
  * Usage: array.mean();
  * Returns: Number
  */
@@ -35,7 +35,7 @@ Array.prototype.variance = function() {
   var mn = this.mean();
   return this.map(function(a){
     return Math.pow(a-mn, 2);
-  }).mean(this.length-1); // n-1 or n ??
+  }).mean(this.length-1); // n-1
 }
 
 /* Standard Deviation: Math.sqrt(variance)

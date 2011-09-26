@@ -3,7 +3,7 @@
 
 Several statistical functions added:
 <ul>
-  <li>Mean</li>
+  <li>Mean (Average)</li>
   <li>Variance</li>
   <li>Standard deviation</li>
   <li>Coefficient of variation</li>
